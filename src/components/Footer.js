@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
-import { Grid, Stack, Item } from "@mui/material";
+import { Grid, Stack } from "@mui/material";
 const useStyles = makeStyles((theme) => ({
   footer: {
     height: "200px",
@@ -65,15 +65,15 @@ const Footer = () => {
           <div>
             <h3>Stay in TOUCH wih us!</h3>
           </div>
-          <Grid container spacing={4} style={{ margin: "auto" }}>
+          <Grid container spacing={2} style={{ margin: "auto" }}>
             <Grid item xs={3}>
-              Facebook
+              a
             </Grid>
             <Grid item xs={3}>
-              Instagram
+              b
             </Grid>
             <Grid item xs={3}>
-              Shopee
+              c
             </Grid>
           </Grid>
         </Stack>
